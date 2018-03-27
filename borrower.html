@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+        <head><center></head>
+            <meta charset="utf-8">
+            <title>test</title>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+input[type=text], select { 
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 10%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    padding: 20px;
+}
+</style>
+<body>
+<h1>Borrower Details</h1>
+<div>
+  <form>
+    <label for="tname">TokenName</label>
+    <input type="text" id="tname" name="TokenName" placeholder="You Token name"><br><br>
+
+    <label for="taddr">TokenAddress</label>
+    <input type="text" id="taddr" name="TokenAddress" placeholder="Your TokenAddress"><br><br>
+
+    <label for="tamo">TokenAmount</label>
+    <input type="text" id="tamo" name="TokenAmount" placeholder="Your TokenAmount"><br><br>
+
+	<label for="badd">BorrowerAddress</label>
+    <input type="text" id="badd" name="BorrowerAddress" placeholder="Your BorrowerAddress"><br><br>
+
+    <label for="ladd">LenderAddress</label>
+    <input type="text" id="ladd" name="LenderAddress" placeholder="Your LenderAddress"><br><br>
+  
+    <label for="ins">NumberOfInstallments</label>
+    <input type="text" id="ins" name="NumberOfInstallments"><br><br>
+
+    <label for="dins">DaysPerInstallments</label>
+    <input type="text" id="dins" name="DayperInstallments"><br><br>
+
+    <label for="lamount">LoanAmount ETH</label>
+    <input type="text" id="lamount" name="LoanAmount ETH"><br><br>
+
+    <label for="inter">Interest</label>
+    <input type="text" id="inter" name="Interest"><br><br>
+    </div>
+    </form>
+    <input type="submit" value="SET">
+</body>
+</html>
